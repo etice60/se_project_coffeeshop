@@ -162,7 +162,7 @@
   margin: 0;
   padding-top: 24px;
 }
-.recipe__videos {
+.recipe-videos {
   width: 100%;
   gap: 40px;
   padding-bottom: 215px;
@@ -178,7 +178,7 @@
   width: 100%;
   height: 273px;
 }
-.recipes__video-caption {
+.recipes-video__caption {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -193,7 +193,7 @@
   margin-bottom: 215px;
   justify-content: space-between;
 }
-.recipe__video-coffee {
+.recipe-video__coffee {
   width: 480px;
   height: 273px;
   flex-direction: column;
