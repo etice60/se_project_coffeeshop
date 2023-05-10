@@ -218,10 +218,6 @@
   text-align: center;
   padding-bottom: 48px;
 }
-.form {
-  margin: 0 auto;
-  width: 400px;
-}
 .reservation__form {
   font-family: Inter;
   font-style: normal;
@@ -229,6 +225,8 @@
   font-size: 16px;
   line-height: 20px;
   flex-direction: column;
+  margin: 0 auto;
+  width: 400px;
 }
 .form__fieldset {
   padding: 0;
