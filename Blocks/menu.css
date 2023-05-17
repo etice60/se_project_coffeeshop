@@ -1,0 +1,101 @@
+.menu {
+  background-image: url(../images/background_menu.svg);
+  background-position: center;
+  background-size: cover;
+  background-color: #fff;
+}
+
+.menu__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  padding-top: 100px;
+  max-width: 780px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.menu__subtitle {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 780px;
+  padding-top: 24px;
+  margin: 0;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.menu__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu__wrapper {
+  align-content: center;
+  flex-direction: column;
+}
+.menu__cards {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin: 0;
+  padding-bottom: 100px;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  row-gap: 100px;
+}
+.card {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  width: 540px;
+  padding-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.card__title {
+  font-family: "inter";
+  font-weight: bold;
+  line-height: 30px;
+  padding-bottom: 32px;
+  margin: 0;
+  font-style: normal;
+}
+.card__list-item {
+  padding-bottom: 16px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0px;
+}
+
+.card__list-item:last-of-type {
+  padding-bottom: 0px;
+}
+
+.card__list-divison {
+  border-bottom: 1px solid #838383;
+  flex-grow: 2;
+}
+
+.card__box {
+  padding-left: 0;
+}

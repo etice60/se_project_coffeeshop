@@ -1,0 +1,121 @@
+.header {
+  background-image: url(../images/background_header.svg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+  position: absolute;
+  height: 125px;
+  width: 142px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.nav {
+  justify-content: space-between;
+  display: flex;
+}
+
+.nav__links {
+  list-style-type: none;
+  display: flex;
+  column-gap: 20px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: 80px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-family: "inter";
+}
+.nav__link:hover {
+  color: #2f80ed;
+}
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+}
+.header__title {
+  max-width: 729px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  margin-left: 80px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  margin-bottom: 0;
+}
+.header__span-accent {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+.header__description {
+  margin-left: 80px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 683px;
+  margin-bottom: 0;
+  margin-top: 28px;
+}
+.header__image {
+  height: 568px;
+  width: 646px;
+  right: 5px;
+  position: absolute;
+  top: 124px;
+}
+.header__footer {
+  box-sizing: border-box;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  position: absolute;
+  padding-left: 80px;
+  bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.header__hours-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  padding-left: 0;
+  flex-direction: column;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.header__list {
+  padding-left: 0;
+  padding-bottom: 40px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.header__list-item {
+  list-style-type: none;
+}
+.header__address {
+  padding-right: 80px;
+  justify-content: flex-end;
+  display: flex;
+  margin-bottom: 0;
+  margin-top: 0;
+}
