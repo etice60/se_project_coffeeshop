@@ -4,38 +4,6 @@
   background-position: center;
   background-size: cover;
 }
-
-.logo {
-  position: absolute;
-  height: 125px;
-  width: 142px;
-  padding-left: 30px;
-  padding-top: 30px;
-}
-
-.nav {
-  justify-content: space-between;
-  display: flex;
-}
-
-.nav__links {
-  list-style-type: none;
-  display: flex;
-  column-gap: 20px;
-  padding: 0;
-  margin-left: auto;
-  margin-right: 80px;
-  margin-top: 30px;
-  margin-bottom: 0;
-  font-family: "inter";
-}
-.nav__link:hover {
-  color: #2f80ed;
-}
-.nav__link {
-  color: #000000;
-  text-decoration: none;
-}
 .header__title {
   max-width: 729px;
   font-family: "Inter";
