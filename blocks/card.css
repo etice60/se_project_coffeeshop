@@ -1,5 +1,5 @@
 .card {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Times New Roman, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -12,12 +12,13 @@
   flex-wrap: wrap;
 }
 .card__title {
-  font-family: "inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: bold;
   line-height: 30px;
   padding-bottom: 32px;
   margin: 0;
   font-style: normal;
+  font-size: 20px;
 }
 .card__list-item {
   padding-bottom: 16px;
@@ -32,9 +33,11 @@
   padding-bottom: 0px;
 }
 
-.card__list-divison {
+.card__list-divider {
   border-bottom: 1px solid #838383;
   flex-grow: 2;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .card__box {

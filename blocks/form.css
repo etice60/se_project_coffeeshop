@@ -1,12 +1,12 @@
 .form {
   margin: 0 auto;
-  width: 400px;
+  max-width: 385px;
 }
 .form__fieldset {
   padding: 0;
   border: none;
   margin: 0;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -18,7 +18,7 @@
 }
 .form__label {
   display: flex;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -33,13 +33,22 @@
   padding-bottom: 0;
   padding-right: 0;
   height: 60px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #838383;
 }
 .form__button {
   border-radius: 4px;
   background-color: rgb(47, 128, 237);
   height: 60px;
-  max-width: 385px;
+  width: 100%;
   color: white;
+  border: none;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 .form__button:hover {
   background-color: rgb(47, 128, 237, 0.7);
@@ -62,8 +71,4 @@
   justify-content: center;
   column-gap: 12px;
   padding-bottom: 120px;
-}
-.form__label_terms {
-  display: flex;
-  justify-content: center;
 }
